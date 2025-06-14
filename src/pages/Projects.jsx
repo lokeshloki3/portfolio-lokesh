@@ -104,7 +104,7 @@ const Projects = () => {
                 {Array.from({ length: totalPages }, (_, i) => (
                   <li key={i}>
                     <button
-                      className={`border px-3 py-2 rounded-md ${currentPage === i + 1
+                      className={`border px-3 py-2 rounded-md cursor-pointer ${currentPage === i + 1
                         ? "bg-[#877EFF] text-white"
                         : ""
                         }`}
@@ -118,7 +118,7 @@ const Projects = () => {
                   <button
                     className={`lg:py-2 lg:px-3 rounded-md text-3xl ${currentPage === totalPages
                       ? "text-gray-400 cursor-not-allowed"
-                      : ""
+                      : "cursor-pointer"
                       }`}
                     onClick={() => currentPage < totalPages && setCurrentPage(currentPage + 1)}
                     disabled={currentPage === totalPages}
