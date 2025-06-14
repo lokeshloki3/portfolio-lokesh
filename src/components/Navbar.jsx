@@ -67,10 +67,9 @@ const Navbar = () => {
             >
               Resume
             </a>
-            
+
             <IoMdMenu
               className="text-3xl text-gray-700 cursor-pointer lg:hidden block"
-              aria-label="Toggle Navigation"
               onClick={() => setIsMenuOpen(true)}
             />
           </div>
