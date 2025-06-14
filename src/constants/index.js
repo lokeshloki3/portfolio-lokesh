@@ -2,8 +2,8 @@ import project0 from "../assets/projects/studysphere.png";
 import project1 from "../assets/projects/shoppingcart.png";
 import project2 from "../assets/projects/blog.png";
 import project3 from "../assets/projects/jobs.png";
-// import project4 from "../assets/projects/portfolio.png";
-import project5 from "../assets/projects/cortihear.png";
+import project4 from "../assets/projects/cortihear.png";
+import project5 from "../assets/projects/portfolio.png";
 import project6 from "../assets/projects/weather.png";
 import project7 from "../assets/projects/password.png";
 import project8 from "../assets/projects/topcourses.png";
@@ -123,24 +123,9 @@ export const PROJECTS = [
         ],
         githubPage: "https://lokeshloki3.github.io/reactjobsvitefull/",
     },
-    // {
-    //   title: "Portfolio Website",
-    //   image: project4,
-    //   description:
-    //     "A personal portfolio website showcasing projects, skills, and contact information.",
-    //   technologies: [
-    //     "HTML",
-    //     "CSS",
-    //     "React",
-    //     "TailwindCSS",
-    //     "Router",
-    //     "React Icons",
-    //   ],
-    //   githubPage: "https://lokeshloki3.github.io/reactportfolio/",
-    // },
     {
         title: "Clinic Appointment",
-        image: project5,
+        image: project4,
         description:
             "Created a single-page React website for Doctor appointments, featuring blog categories, a blog page, testimonial slides, and a 'Book Appointment' popup form that stores data in Google Sheets via a POST request using Google Apps Script. The webpage is also mobile-responsive.",
         technologies: [
@@ -153,6 +138,21 @@ export const PROJECTS = [
             "Google Sheets",
         ],
         githubPage: "https://lokeshloki3.github.io/drappointment/",
+    },
+    {
+        title: "Portfolio Website",
+        image: project5,
+        description:
+            "A personal portfolio website showcasing projects, skills, and contact information.",
+        technologies: [
+            "HTML",
+            "CSS",
+            "React",
+            "TailwindCSS",
+            "Router",
+            "React Icons",
+        ],
+        githubPage: "https://lokeshloki3.github.io/reactportfolioanimate/",
     },
     {
         title: "Weather App",
