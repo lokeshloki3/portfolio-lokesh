@@ -32,7 +32,7 @@ const Projects = () => {
           {paginatedProjects.map((project, idx) => (
             <div key={idx} className="pb-4 border-b-2 border-gray-300">
               <div className="group relative overflow-hidden rounded-lg p-4 md:p-6 lg:p-6">
-                <div className="relative aspect-5/4 overflow-hidden rounded-2xl">
+                <div className="relative overflow-hidden rounded-2xl">
                   <a
                     href={project.githubPage}
                     target="_blank"

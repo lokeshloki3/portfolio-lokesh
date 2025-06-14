@@ -1,1 +1,14 @@
 @import "tailwindcss";
+
+html, body {
+  margin: 0;
+  font-family: Montserrat, BuckeyeSans, HelveticaNeue, Helvetica, Arial, sans-serif;
+  height: 100%;
+  border-width: 0px;
+  border-style: solid;
+  border-color: rgb(229, 231, 235);
+  box-sizing: border-box;
+  line-height: 1.5;
+  text-size-adjust: 100%;
+  background-color: #E5E7F5;
+}
