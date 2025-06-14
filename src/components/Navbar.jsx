@@ -26,7 +26,7 @@ const Navbar = () => {
     <>
       <header className="sticky top-0 z-50 border-0 border-solid border-gray-200 m-6">
         <div className="flex items-center justify-between rounded-2xl bg-white p-3 shadow">
-          <Link to="/" className="inline-flex items-center gap-3 text-2xl font-semibold">
+          <Link to="/portfolio-lokesh" className="inline-flex items-center gap-3 text-2xl font-semibold">
             <img
               className="w-[100px] sm:w-[120px] md:w-[150px]"
               alt="Logo"
@@ -38,7 +38,7 @@ const Navbar = () => {
             <ul className="hidden gap-6 flex-1 flex-wrap items-center justify-center lg:flex">
               {items.map(
                 (text, index) => {
-                  const path = text === "Home" ? "/" : `/${text.toLowerCase()}`;
+                  const path = text === "Home" ? "/portfolio-lokesh" : `/${text.toLowerCase()}`;
                   const isActive = currentPath === path;
 
                   return (

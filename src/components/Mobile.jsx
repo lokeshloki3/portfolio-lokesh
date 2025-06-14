@@ -32,7 +32,7 @@ const Mobile = ({ onClose }) => {
 
         <div>
           <Link
-            to="/"
+            to="/portfolio-lokesh"
             className="inline-flex items-center gap-3 text-2xl font-semibold"
           >
             <img
@@ -46,7 +46,7 @@ const Mobile = ({ onClose }) => {
 
         <ul className="mt-4 flex flex-1 flex-col gap-2">
           {menuItems.map((item, index) => {
-            const path = item.text === "Home" ? "/" : `/${item.text.toLowerCase()}`;
+            const path = item.text === "Home" ? "/portfolio-lokesh" : `/${item.text.toLowerCase()}`;
             const isActive = currentPath === path;
 
             return (
