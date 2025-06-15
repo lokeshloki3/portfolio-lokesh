@@ -62,7 +62,7 @@ const Sidecard = () => {
           <a
             id="wa-btn"
             className="shadow cursor-pointer inline-flex items-center gap-x-2 rounded-lg border px-6 py-4 font-medium transition focus:outline-none focus:ring disabled:pointer-events-none disabled:opacity-50"
-            href="https://api.whatsapp.com/send?phone=919311354886&text=Hello,%20I%20want%20to%20send%20you%20a%20message."
+            href="https://api.whatsapp.com/send?phone=919311354886&text=Hello,%20I%20came%20across%20your%20portfolio%20and%20wanted%20to%20connect."
             target="_blank"
           >
             <FaWhatsapp className="text-lg" />
