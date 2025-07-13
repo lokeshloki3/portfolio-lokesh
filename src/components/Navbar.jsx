@@ -39,7 +39,9 @@ const Navbar = () => {
               {items.map(
                 (text, index) => {
                   const path = text === "Home" ? "/portfolio-lokesh" : `/${text.toLowerCase()}`;
-                  const isActive = currentPath === path;
+                  {/* const isActive = currentPath === path; */ }
+                  const normalizePath = (path) => path.endsWith('/') ? path.slice(0, -1) : path;
+                  const isActive = normalizePath(currentPath) === normalizePath(path);
 
                   return (
                     <li key={index} className="group/menu-item border-0 border-solid border-gray-200">
