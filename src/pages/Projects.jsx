@@ -59,7 +59,7 @@ const Projects = () => {
                         {project.title}
                       </a>
                       <a
-                        className="inline-flex items-center justify-center gap-1 rounded bg-white px-3 py-2 text-center text-sm leading-none transition hover:text-purple-400"
+                        className="inline-flex items-center justify-center gap-1 rounded bg-white px-3 py-2 text-center text-sm leading-none transition text-purple-400"
                         href={project.githubPage}
                         target="_blank"
                         rel="noopener noreferrer"

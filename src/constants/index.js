@@ -28,7 +28,21 @@ export const ABOUT_TEXT = `I am a dedicated and versatile front-end developer wi
 
 export const EXPERIENCES = [
     {
-        year: "Dec,2024 - Present",
+        year: "June,2025 - Present",
+        role: "SDE - 2 Frontend Developer",
+        companyLogo: "https://razornext.com/_next/static/media/RazorNext_New_logo.281d8391.svg",
+        companyName: "Razornext",
+        description: [
+            "Currently working on a client project for Flipkart, building a blogging platform using Next.js, TypeScript and Strapi Headless CMS.",
+            "Implemented role-based access control in Strapi admin panel to manage content securely.",
+            "Used TanStack Query for efficient API handling and Zustand for scalable state management.",
+            "Focused on improving Core Web Vitals through page optimization techniques.",
+            "Implementing Redis caching for blog data to reduce redundant backend calls and improve response times",
+        ],
+        technologies: ["React", "JavaScript", "HTML", "CSS", "Tailwind", "Next.js", "CI/CD", "OAuth 2.0"],
+    },
+    {
+        year: "Dec,2024 - June,2025",
         role: "Web Development Intern",
         companyLogo: "https://www.saralgroups.com/static/assets/company-logo.png",
         companyName: "Saral Tech",
@@ -295,7 +309,7 @@ export const techStack = [
     { name: "JavaScript", imgSrc: "https://cdn.simpleicons.org/javascript/F7DF1E" },
     { name: "Tailwind CSS", imgSrc: "https://cdn.simpleicons.org/tailwindcss/06B6D4" },
     { name: "HTML", imgSrc: "https://cdn.simpleicons.org/html5/E34F26" },
-    { name: "CSS", imgSrc: "https://cdn.simpleicons.org/css3/1572B6" },
+    { name: "CSS", imgSrc: "https://cdn.simpleicons.org/css/663399" },
     { name: "Redux", imgSrc: "https://cdn.simpleicons.org/redux/764ABC" },
     { name: "Git", imgSrc: "https://cdn.simpleicons.org/git/F05032" },
     { name: "GitHub", imgSrc: "https://cdn.simpleicons.org/github/181717" },
@@ -315,6 +329,7 @@ export const techStack = [
     // { name: "VS Code", imgSrc: "https://cdn.simpleicons.org/visualstudiocode/007ACC" },
     { name: "MongoDB Compass", imgSrc: "https://cdn.simpleicons.org/mongodb/47A248" },
     { name: "Razorpay", imgSrc: "https://cdn.simpleicons.org/razorpay/000000" },
+    { name: "Redis", imgSrc: "https://cdn.simpleicons.org/redis/FF4438" },
     { name: "Google Sheets", imgSrc: "https://cdn.simpleicons.org/googlesheets/34A853" },
     // { name: "MS Office", imgSrc: "https://cdn.simpleicons.org/microsoftword/2B579A" },
 ];
