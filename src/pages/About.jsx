@@ -12,7 +12,12 @@ const About = () => {
             <h2 className="text-2xl lg:text-3xl font-medium lg:font-semibold">
               Hi, I am Lokesh Walia 👋
             </h2>
-            <p className="mt-4 lg:mt-6 text-lg text-gray-500">
+
+            <p className="mt-4 text-lg lg:mt-6 lg:text-lg text-gray-500">
+              Dedicated{" "}
+              <span className="font-semibold text-gray-900">
+                Software Engineer
+              </span>{" "}
               {ABOUT_TEXT}
             </p>
           </div>
