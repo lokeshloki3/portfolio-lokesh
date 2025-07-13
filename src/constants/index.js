@@ -39,7 +39,7 @@ export const EXPERIENCES = [
             "Focused on improving Core Web Vitals through page optimization techniques.",
             "Implementing Redis caching for blog data to reduce redundant backend calls and improve response times",
         ],
-        technologies: ["React", "JavaScript", "HTML", "CSS", "Tailwind", "Next.js", "CI/CD", "OAuth 2.0"],
+        technologies: ["React", "Next.js", "JavaScript", "TypeScript","HTML", "CSS", "Tailwind CSS", "TanStack Query", "Zustand", "Redis"],
     },
     {
         year: "Dec,2024 - June,2025",
