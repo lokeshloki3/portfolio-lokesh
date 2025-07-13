@@ -1,6 +1,6 @@
 import React from "react";
 import Sidecard from "../components/Sidecard";
-import { ABOUT_TEXT, CONTACT, HERO_CONTENT } from "../constants";
+import { C_ABOUT_TEXT, CONTACT, HERO_CONTENT } from "../constants";
 
 const Contact = () => {
   return (
@@ -13,11 +13,11 @@ const Contact = () => {
               <h2 className="text-3xl font-semibold lg:text-[24px]">
                 Hi, This is Lokesh Walia 👋
               </h2>
-              <p className="mt-4 text-lg lg:mt-6 lg:text-lg">
-                {HERO_CONTENT}
+              <p className="mt-4 text-lg lg:mt-6 lg:text-lg text-gray-500" dangerouslySetInnerHTML={{ __html: HERO_CONTENT }}>
+                {/* {HERO_CONTENT} */}
               </p>
-              <p className="mt-4 text-lg lg:mt-6 lg:text-lg">
-                {ABOUT_TEXT}
+              <p className="mt-4 text-lg lg:mt-6 lg:text-lg text-gray-500">
+                {C_ABOUT_TEXT}
               </p>
               <p className="mt-4 text-lg lg:mt-6 lg:text-lg">
                 📧 Email:{" "}
