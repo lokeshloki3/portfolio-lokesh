@@ -32,7 +32,7 @@ export const ABOUT_TEXT = `with a strong foundation in both front-end and back-e
 export const EXPERIENCES = [
     {
         year: "June,2025 - Present",
-        role: "SDE - 2 Frontend Developer",
+        role: "SDE II",
         companyLogo: "https://razornext.com/_next/static/media/RazorNext_New_logo.281d8391.svg",
         companyName: "Razornext",
         description: [
@@ -40,7 +40,7 @@ export const EXPERIENCES = [
             "Implemented role-based access control in Strapi admin panel to manage content securely.",
             "Used TanStack Query for efficient API handling and Zustand for scalable state management.",
             "Focused on improving Core Web Vitals through page optimization techniques.",
-            "Implementing Redis caching for blog data to reduce redundant backend calls and improve response times",
+            "Implemented Redis caching for blog data to reduce redundant backend calls and improve response times",
         ],
         technologies: ["React", "Next.js", "JavaScript", "TypeScript", "HTML", "CSS", "Tailwind CSS", "TanStack Query", "Zustand", "Redis"],
     },
