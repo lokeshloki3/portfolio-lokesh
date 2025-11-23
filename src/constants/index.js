@@ -32,7 +32,7 @@ export const ABOUT_TEXT = `with a strong foundation in both front-end and back-e
 export const EXPERIENCES = [
     {
         year: "June,2025 - Present",
-        role: "SDE II",
+        role: "SDE I",
         companyLogo: "https://razornext.com/_next/static/media/RazorNext_New_logo.281d8391.svg",
         companyName: "Razornext",
         description: [
