@@ -30,10 +30,10 @@ const Sidecard = () => {
           {" "}
           having{" "}
           <span className="font-semibold text-gray-900">
-            2 years
+            3+ years
           </span>{" "}
           {/* of hands-on experience in building web applications using technologies like React, JavaScript, HTML, CSS, and Tailwind. Over the years, I have honed my skills in creating responsive, user-friendly interfaces and optimizing performance. My goal is to leverage my expertise to create innovative solutions that drive business growth and deliver exceptional user experiences. */}
-          of experience building fast and reliable applications across web and native platforms. Skilled in JavaScript, C++, and React.js, with a focus on clean code and efficient problem-solving across the stack.
+          of experience building fast and reliable applications across web and native platforms. Skilled in Python, JavaScript, C++, Java, and React.js, with a focus on clean code and efficient problem-solving across the stack.
         </p>
 
         <div className="mt-2">
