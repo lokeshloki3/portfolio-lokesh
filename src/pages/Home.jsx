@@ -30,6 +30,7 @@ const Home = () => {
                             className="w-10 text-lg mix-blend-multiply rounded object-cover"
                             alt="logo_image"
                             src={experience.companyLogo}
+                            srcSet={experience.companyLogoSrcSet}
                             title="image"
                           />
                         </div>
