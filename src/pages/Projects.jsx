@@ -19,7 +19,7 @@ const Projects = () => {
   }, [currentPage]);
 
   return (
-    <div className="grid grid-cols-1 lg:grid-cols-[1fr_2fr] items-start m-6 gap-6">
+    <div className="grid grid-cols-1 lg:grid-cols-[1fr_2fr] items-start m-6 gap-6 pb-6">
       <Sidecard />
       <div className="rounded-2xl bg-white p-6 shadow lg:p-10 mb-6">
         <div>

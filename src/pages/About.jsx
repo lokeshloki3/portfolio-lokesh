@@ -4,7 +4,7 @@ import { ABOUT_TEXT } from "../constants";
 
 const About = () => {
   return (
-    <div className="grid grid-cols-1 lg:grid-cols-[1fr_2fr] gap-6 m-6 items-start">
+    <div className="grid grid-cols-1 lg:grid-cols-[1fr_2fr] gap-6 m-6 pb-6 items-start">
       <Sidecard />
       <div className="rounded-2xl bg-white p-6 lg:p-10 shadow mb-6">
         <div className="flex flex-col-reverse lg:flex-row items-start gap-6 lg:gap-10">

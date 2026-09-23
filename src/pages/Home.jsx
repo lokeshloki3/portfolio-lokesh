@@ -7,7 +7,7 @@ import { Link } from "react-router-dom";
 const Home = () => {
   return (
     <>
-      <main className="grid grid-cols-1 gap-4 lg:grid-cols-3 lg:gap-6 m-6 border-0 border-solid border-gray-200 box-border text-gray-900 items-start">
+      <main className="grid grid-cols-1 gap-4 lg:grid-cols-3 lg:gap-6 m-6 pb-6 border-0 border-solid border-gray-200 box-border text-gray-900 items-start">
         <Sidecard />
         <div className="grid grid-cols-1 gap-4 lg:gap-6">
           {/* Work Experience Section */}
