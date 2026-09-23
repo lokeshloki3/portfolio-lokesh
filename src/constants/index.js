@@ -21,6 +21,8 @@ import project19 from "../assets/projects/taskmanager.png";
 import project20 from "../assets/projects/cards.png";
 import project21 from "../assets/projects/weatherapi.png";
 import saral_logo from "../assets/saral-company-logo.png";
+import onecx_logo_100 from "../assets/onecx_logo_100.jpg";
+import onecx_logo_200 from "../assets/onecx_logo_200.jpg";
 // import project22 from "../assets/projects/dinogame.png";
 
 // export const HERO_CONTENT = `I am a passionate front-end developer with 2 years of hands-on experience in building web applications using technologies like React, JavaScript, HTML, CSS, and Tailwind. Over the years, I have honed my skills in creating responsive, user-friendly interfaces and optimizing performance. My goal is to leverage my expertise to create innovative solutions that drive business growth and deliver exceptional user experiences.`;
@@ -36,11 +38,10 @@ const CAREER_BREAK_ICON =
 export const EXPERIENCES = [
     {
         year: "June,2025 - Present",
-        // role: "SDE I",
         role: "Software Development Engineer",
-        companyLogo:
-            "https://razornext.com/_next/static/media/RazorNext_New_logo.281d8391.svg",
-        companyName: "Razornext",
+        companyLogo: onecx_logo_200,
+        companyLogoSrcSet: `${onecx_logo_100} 100w, ${onecx_logo_200} 200w`,
+        companyName: "OneCX",
         // description: [
         //   "Developed a hyperlocal e-commerce marketplace with multi-store support, product catalog, cart, cart conflict resolution, and order management using Next.js and TypeScript.",
         //   "Contributed to the admin panel for category, catalog, coupons, order, and customer management.",
