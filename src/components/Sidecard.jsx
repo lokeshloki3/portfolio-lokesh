@@ -70,7 +70,7 @@ const Sidecard = () => {
           </a>
 
           <a
-            href="mailto:lokesh1992p@gmail.com"
+            href="mailto:lokesh021loki@gmail.com"
             className="shadow inline-flex items-center gap-x-2 rounded-lg border bg-transparent px-6 py-4 font-medium transition [--trigger:focus] focus:outline-none focus:ring disabled:pointer-events-none disabled:opacity-50"
           >
             <MdOutlineEmail />
